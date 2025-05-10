@@ -1,0 +1,429 @@
+.logo {
+    width: 110px;
+    margin-right: 100px;
+    padding-top: 15px;
+    margin-right: 100px;
+
+}
+
+ul li a {
+    font-size: 17px;
+    color: rgb(102, 102, 102);
+    display: flex;
+    font-family: "Roboto Mono", monospace;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 49px;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+header {
+    width: 100%;
+}
+
+.pic {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.785);
+
+}
+
+.copyright {
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    font-family: "Roboto Mono", monospace;
+    margin-top: 10px;
+}
+
+.pin {
+    width: 30px;
+}
+
+.fb {
+    color: rgb(102, 102, 102);
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img.pic:hover {
+    filter: brightness(1);
+    cursor: pointer;
+}
+
+.pic {
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    filter: brightness(0.4);
+    transition: all 0.5s ease-out;
+}
+
+.cust_img {
+    width: 11%;
+    height: 119px;
+}
+
+.slide-item {
+    position: relative;
+}
+
+.slide-caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 4px, 12px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.wallpaper {
+    height: 350px;
+    width: 99.8%;
+    opacity: 95%;
+}
+
+.dummy {
+    background-image: url('images/wallpaper6.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgba(0, 0, 0, 0.747);
+    text-align: center;
+    padding: 20px;
+    height: 350px;
+    width: 99.8%;
+    opacity: 97%;
+    display: inline-block;
+    padding-top: 120px;
+    padding-left: 20px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+
+.dummypage {
+    font-size: 30px;
+    font-family: "Roboto Mono", monospace;
+    color: rgba(0, 0, 0, 0.679);
+}
+
+.replace {
+    color: rgba(0, 0, 0, 0.67);
+    font-family: "Roboto Mono", monospace;
+    font-size: 22px;
+}
+
+.white-box {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 1100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50;
+    text-align: justify;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.612);
+    font-size: 15px;
+}
+
+p {
+    padding-top: 11px;
+    font-family: "Roboto Mono", monospace;
+}
+
+h1.portbg {
+    background-image: url(images/portfoliobgimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.871);
+    text-align: center;
+    padding: 20px;
+    height: 350px;
+    width: 99.8%;
+    display: inline-block;
+    padding-top: 120px;
+    padding-left: 20px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 38px;
+    opacity: 93%;
+    padding-bottom: 25px;
+    letter-spacing: 7px;
+}
+
+.img-container {
+    flex: revert;
+    display: inline-block;
+}
+
+img.ptf {
+    width: 330px;
+}
+
+.portfolioimages {
+    align-items: center;
+    margin-left: 109px;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+    flex: revert;
+    display: inline-block;
+}
+
+h2.filter {
+    padding-left: 115px;
+    padding-top: 19px;
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: px;
+    color: rgba(0, 0, 0, 0.773);
+    text-decoration: none;
+}
+
+h1.blogbg {
+    background-image: url(images/blogbgimg2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    height: 350px;
+    width: 99.8%;
+    display: inline-block;
+    padding-top: 120px;
+    padding-left: 20px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 38px;
+    opacity: 100%;
+    padding-bottom: 25px;
+    letter-spacing: 5px;
+    color: rgba(0, 0, 0, 0.932)
+}
+
+p.info {
+    font-size: 16px;
+    text-align: unset;
+    color: rgba(0, 0, 0, 0.749);
+}
+
+img.blogimage {
+    width: 80;
+    margin-left: 24px;
+    height: 670px;
+}
+
+b {
+    color: rgba(0, 0, 0, 0.944);
+}
+
+em {
+    color: black;
+    font-size: 17px;
+}
+
+.white-box {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 1100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50;
+    text-align: justify;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.612);
+    font-size: 15px;
+}
+
+.slide-item img {
+    width: 110%;
+    height: 600px;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.slick1 .slide-item img {
+    transition: transform 5s ease;
+}
+
+
+.slick1 .slide-item:hover img {
+    transform: scale(1.1);
+}
+
+.slide-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin: auto;
+    margin-right: 96px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 12px;
+    left: 3px;
+    background-color: rgba(255, 255, 255, 0.896);
+    opacity: 90%;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 1px;
+}
+
+.caption2 {
+    position: absolute;
+    bottom: 12px;
+    left: 3px;
+    background-color: rgba(255, 255, 255, 0.896);
+    opacity: 90%;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-radius: 3px;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 1px;
+    margin-bottom: 240px;
+}
+
+.ptfbtn {
+    margin-left: 110px;
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+
+button {
+    color: rgb(102, 102, 102);
+    border: none;
+    background-color: white;
+    font-family: 'Roboto Mono';
+}
+
+button:hover {
+    color: rgba(0, 0, 0, 0.971);
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.ptf {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption,
+.caption2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+
+.ptf {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ptf {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.caption2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
